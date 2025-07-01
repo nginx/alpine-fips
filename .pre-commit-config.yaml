@@ -25,17 +25,17 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.24.3
+    rev: v8.27.2
     hooks:
       - id: gitleaks
 
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.17.2
+    rev: v0.18.1
     hooks:
       - id: markdownlint-cli2
 
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.37.0
+    rev: v1.37.1
     hooks:
       - id: yamllint
 

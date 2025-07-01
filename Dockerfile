@@ -1,5 +1,5 @@
-# syntax=docker/dockerfile:1.15
-ARG BUILD_OS=alpine:3.21
+# syntax=docker/dockerfile:1.17
+ARG BUILD_OS=alpine:3.22
 ARG OPENSSL_VERSION=3.0.9
 
 FROM ${BUILD_OS} AS alpine
