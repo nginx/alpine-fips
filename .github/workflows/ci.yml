@@ -18,8 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        image: ["3.17", "3.19", "3.20", "3.21", "3.22"]
-        openssl_version: ["3.0.9"]
+        image: ["3.19", "3.20", "3.21", "3.22"]
+        openssl_version: ["3.1.2"]
       fail-fast: false
     steps:
       - name: Checkout Repository
