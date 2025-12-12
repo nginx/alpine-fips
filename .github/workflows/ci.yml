@@ -88,7 +88,7 @@ jobs:
           add-cpes-if-none: true
 
       - name: Upload Anchore scan SARIF report
-        uses: github/codeql-action/upload-sarif@0499de31b99561a6d14a36a5f662c2a54f91beee # v4.31.2
+        uses: github/codeql-action/upload-sarif@1b168cd39490f61582a9beae412bb7057a6b2c4e # v4.31.8
         with:
           sarif_file: ${{ steps.scan.outputs.sarif }}
 
