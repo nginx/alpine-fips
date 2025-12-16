@@ -79,7 +79,7 @@ jobs:
             OPENSSL_VERSION=${{ matrix.openssl_version }}
 
       - name: Run Grype vulnerability scanner
-        uses: anchore/scan-action@568b89d27fc18c60e56937bff480c91c772cd993 # v7.1.0
+        uses: anchore/scan-action@3c9a191a0fbab285ca6b8530b5de5a642cba332f # v7.2.2
         continue-on-error: true
         id: scan
         with:
