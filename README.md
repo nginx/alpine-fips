@@ -1,7 +1,6 @@
 <!-- markdownlint-disable-next-line first-line-h1 -->
 [![OpenSSFScorecard](https://api.securityscorecards.dev/projects/github.com/nginx/alpine-fips/badge)](https://scorecard.dev/viewer/?uri=github.com/nginx/alpine-fips)
 [![CI](https://github.com/nginx/alpine-fips/actions/workflows/ci.yml/badge.svg)](https://github.com/nginx/alpine-fips/actions/workflows/ci.yml)
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B5618%2Fgithub.com%2Fnginx%2Falpine-fips.svg?type=shield)](https://app.fossa.com/projects/custom%2B5618%2Fgithub.com%2Fnginx%2Falpine-fips?ref=badge_shield)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 # Alpine Linux with FIPS OpenSSL module
