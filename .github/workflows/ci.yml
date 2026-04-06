@@ -93,7 +93,7 @@ jobs:
           sarif_file: ${{ steps.scan.outputs.sarif }}
 
       - name: Create/Update Draft
-        uses: lucacome/draft-release@0ebb400b90474a1b791602046abf8394e9f5402d # v2.0.2
+        uses: lucacome/draft-release@0c50500964387d6c8fed46e24187929e5abc5b63 # v2.1.0
         with:
           minor-label: "enhancement"
           major-label: "change"
