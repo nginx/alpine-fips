@@ -1,9 +1,8 @@
 ---
-ignore-from-file: .gitignore
-
 extends: default
 ignore: |
   .github/
+  .gitignore
 rules:
   comments:
     min-spaces-from-content: 1
