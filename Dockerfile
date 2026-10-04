@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.26
+# syntax=docker/dockerfile:1.27
 ARG BUILD_OS=alpine:3.24
 ARG OPENSSL_VERSION=3.1.2
 
